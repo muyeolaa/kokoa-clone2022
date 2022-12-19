@@ -4,8 +4,8 @@
     align-items: center;
     padding: var(--horizontal-space);
     padding-top: 40px;
-    opacity: 90%;
     margin-bottom: 15px;
+    opacity: 90%;
     }
 
     .screen-header__title {
@@ -18,3 +18,18 @@
         margin: 0px 2px;
         color: rgba(0, 0, 0, 0.6);
     }
+
+    @keyframes rotateCog {
+        from{
+            transform:none;
+        }
+        to{
+            transform: rotateZ(360deg);
+        }
+    }
+
+    .screen-header__icons .fa-gear:hover {
+        animation: rotateCog 1s linear infinite;
+    }
+
+    

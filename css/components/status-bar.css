@@ -18,9 +18,13 @@
     justify-content: center;
 }
 .status-bar__column:last-child{
+    font-size: 12px;
     display: flex;
     justify-content:flex-end ;
     align-items: center;
+}
+.status-bar__column:last-child span {
+    font-size: 14px;
 }
 
 .status-bar__column.fa-battery-three-quarters {
